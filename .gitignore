@@ -1,0 +1,18 @@
+# Secrets: never commit your real API key
+.env
+
+# Saved chats (stay on your computer)
+storage/*.db
+storage/*.db-journal
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

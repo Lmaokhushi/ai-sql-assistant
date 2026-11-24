@@ -1,0 +1,49 @@
+# Light and dark themes. Visitors get the one that matches their system
+# (or whichever they pick in the menu: ⋮ > Settings), and the app's own
+# styling (ui/styles.py) switches to match.
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+maxUploadSize = 200
+
+[theme]
+font = "sans-serif"
+baseRadius = "0.7rem"
+showWidgetBorder = true
+
+[theme.light]
+base = "light"
+primaryColor = "#2878C8"
+backgroundColor = "#F4F8FD"
+secondaryBackgroundColor = "#EAF4FF"
+textColor = "#173D64"
+borderColor = "#DFEAF6"
+dataframeHeaderBackgroundColor = "#EAF4FF"
+codeBackgroundColor = "#F2F7FD"
+
+[theme.light.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F8FD"
+textColor = "#173D64"
+borderColor = "#DFEAF6"
+
+[theme.dark]
+base = "dark"
+primaryColor = "#2F86DA"
+backgroundColor = "#0A1320"
+secondaryBackgroundColor = "#15273E"
+textColor = "#E6EEF8"
+borderColor = "#213450"
+dataframeHeaderBackgroundColor = "#15273E"
+codeBackgroundColor = "#0E1928"
+
+[theme.dark.sidebar]
+backgroundColor = "#111D2F"
+secondaryBackgroundColor = "#15273E"
+textColor = "#E6EEF8"
+borderColor = "#213450"
